@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Munz Paste Coords",
-    "version": "0.0.2",
+    "version": "0.0.3",
 
     "description": "Helper for pasting coordinates into Munzee Edit Location page",
 
