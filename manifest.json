@@ -1,18 +1,18 @@
 {
     "manifest_version": 2,
     "name": "Munz Paste Coords",
-    "version": "0.0.3",
+    "version": "0.0.4",
 
     "description": "Helper for pasting coordinates into Munzee Edit Location page",
 
-    "action": {
+    "browser_action": {
 	"default_title": "munz_paste_coords"
     },
 
     "content_scripts": [
 	{
 	    "matches": [
-		"https://*.munzee.com/m/*/admin/map*"
+		"https://www.munzee.com/*"
 	    ],
 	    "js": ["main.js"]
 	}
